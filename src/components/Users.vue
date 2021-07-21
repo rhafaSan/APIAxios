@@ -1,7 +1,6 @@
 <template>
   <div>
       <ul>
-          <h2>Desenvolvimento de Software para WEB - Atividade III</h2>
           <div v-for="user in users" :key="user.id">
               <div v-if="user.id <'6' "> 
                 <li> 

@@ -34,6 +34,7 @@ export default
             fetchPosts: function() {
                 this.$http.get(this.postURI).then((result) => {
                     this.posts = result.data;    
+                    console.log(this.posts)
                 });
             },
             fetchUser: function(){

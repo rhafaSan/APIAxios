@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>Prática 3 de Web</h1>
     <Users></Users>
     <Todos></Todos>
     <Photos></Photos>
